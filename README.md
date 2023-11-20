@@ -1,9 +1,9 @@
 # Notebook \#6
-Using CNNs to predict whether a chest x-ray has pneumonia. 
+Deep learning with MLP and CNN for an image recognition task. 
 
 ## The Data: 📊
 
-For this notebook, you will train a convolutional neural network for an image recognition task (like the cat vs. dog example). In this case, your algorithm will utilize a dataset of chest x-ray images to help learn how to diagnose pneumonia. The assignment is inspired by the Kaggle data competition  https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+For this notebook, you will train two deep neural networks: 1) a multilayer perceptron (MLP), and 2) a convolutional neural network (CNN) for an image recognition task (like the cat vs. dog example). In this case, your algorithm will utilize a dataset of images to help learn useful features to classify an image into one of 10 classes. You should be using the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 I have sampled the images in the dataset to 200x200 pixels to allow you to download the dataset in a reasonable format (52 MB compared to 1GB for the full-resolution images).
 
@@ -19,7 +19,7 @@ The assignment is to run an experiment where you try a basic CNN network and the
   - Flatten
   - Fully Connected (Dense)
 
-3. Build a **tuned CNN**--simply a CNN that has some changes from the first one. You may change whichever parameters you like (consider the kernel size, the number of layers, the types of layer, the number of feature maps in each layer, adding dropout layers, etc). Just make some sort of change that you think might be significant, train you new model, and compare its performance to the original. In a text-cell, describe what you changed.   
+3. Build a **tuned CNN**--simply a CNN that has some changes from the first one. You may change whichever parameters you like (consider the kernel size, the number of layers, the types of layers, the number of feature maps in each layer, adding dropout layers, etc). Just make some sort of change that you think might be significant, train you new model, and compare its performance to the original. In a text-cell, describe what you changed.   
     - You should train each model for enough epochs that your performance on the test set stops improving (i.e., show where you reach overfitting)  OR for at least 30 minutes of training time. If you would like to further experiment with additional changes, that is fine, but because these things sometimes take a long time to train, I'm setting a low bar for just showing me two variations.
 
 4. **Include graphs** of how well your testing data performed vs. the training data.
