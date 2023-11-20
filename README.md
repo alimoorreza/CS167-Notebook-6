@@ -3,7 +3,7 @@ Deep learning with MLP and CNN for an image recognition task.
 
 ## The Data: 📊
 
-For this notebook, you will train two deep neural networks: 1) a multilayer perceptron (MLP), and 2) a convolutional neural network (CNN) for an image recognition task, such as the cat vs. dog example. In this case, the algorithm will utilize a dataset of images to learn useful features for classifying an image into one of 10 classes. You should be using the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
+For this notebook, you will train two deep neural networks (DNN): 1) a multilayer perceptron (MLP), and 2) a convolutional neural network (CNN) for an image recognition task, such as the cat vs. dog example. In this case, the algorithm will utilize a dataset of images to learn useful features for classifying an image into one of 10 classes. You should be using the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 The starter notebook contains a snippet of code on how to download the dataset using PyTorch's __torchvision.datasets__ module
 
