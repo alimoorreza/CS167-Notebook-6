@@ -27,8 +27,9 @@ The assignment is to run an experiment where you try a simple MLP network and a 
 
 - **Include graphs** of how well your testing data performed vs. the training data.
 - **Conclusions**: Answer the following questions in a markup cell at the bottom of your notebook.
+    - How many epochs of training have been utilized for the MLP? How many epochs of training have been utilized for CNN?
+    - How accurate can you make your MLP predictor? How accurate can you make your CNN predictor? At which epoch do you anticipate achieving the best results, respectively, for MLP and CNN?
     - What configuration of your DNN (MLP or CNN) proved to be more accurate? Why do you think this is the case?
-    - How accurate can you make your CNN predictor? 
 
 Use a Markup cell to put your name at the top of the file. Rename your file LastnameNotebook6.ipynb and submit the link to your repository to Blackboard.
 
