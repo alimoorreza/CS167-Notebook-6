@@ -8,22 +8,25 @@ For this notebook, you will train two deep neural networks: 1) a multilayer perc
 The starter notebook contains a snippet of code on how to download the dataset using PyTorch's __torchvision.datasets__ module
 
 ## The Exercises: 💪
-The assignment is to run an experiment where you try a basic CNN network and then try a variation on it to see what happens. I will be looking for the following:
+The assignment is to run an experiment where you try a simple MLP network and a CNN to see which network gives you the best result (in terms of classification accuracy metric). I will be looking for the following:
 
-1. In a mark-down cell near the top of your notebook, give a brief explanation of your problem.  
-2. Build a **CNN** that has this structure:
+- In a mark-down cell near the top of your notebook, give a brief explanation of your problem.  
+- Build an **MLP** that has this structure (the exact number of parameters is given in the starter notebook as suggestions):
+  - One input layer 
+  - Three hidden layers
+  - One output layer
+- Build a **CNN** that has this structure (the exact number of parameters is given in the starter notebook as suggestions):
   - Conv layer 1
   - Conv layer 2
-  - Flatten
-  - Fully Connected (Dense)
-  - Fully Connected (Dense)
+  - Flatten layer
+  - Fully Connected layer (Dense)
+  - Fully Connected layer (Dense)
 
-3. You may change whichever parameters you like (consider the kernel size, the number of layers, the types of layers, the number of feature maps in each layer, adding dropout layers, etc). Just make some sort of change that you think might be significant, train your new model, and compare its performance to the MLP. In a text cell, describe what you changed.   
-    - You should train each model for enough epochs that your performance on the test set stops improving (i.e., show where you reach overfitting)  OR for at least 1 hour of training time. If you would like to further experiment with additional changes, that is fine, but because these things sometimes take a long time to train, I'm setting a low bar for just showing me two variations.
+- Train both models and compare their performance.    
+    - You should train each model for enough epochs that your performance on the test set stops improving (i.e., show where you reach overfitting)  OR for at least 1 hour of training time. If you would like to further experiment with additional changes, that is fine, but because these things sometimes take a long time to train.
 
-4. **Include graphs** of how well your testing data performed vs. the training data.
-
-5. **Conclusions**: Answer the following questions in a markup cell at the bottom of your notebook.
+- **Include graphs** of how well your testing data performed vs. the training data.
+- **Conclusions**: Answer the following questions in a markup cell at the bottom of your notebook.
     - What configuration of your DNN (MLP or CNN) proved to be more accurate? Why do you think this is the case?
     - How accurate can you make your CNN predictor? 
 
