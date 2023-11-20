@@ -22,7 +22,7 @@ The assignment is to run an experiment where you try a simple MLP network and a 
   - Fully Connected layer (Dense)
   - Fully Connected layer (Dense)
 
-- Train both models and compare their performance.    
+- **Train both models** and compare their performance.    
     - You should train each model for enough epochs that your performance on the test set stops improving (i.e., show where you reach overfitting)  OR for at least 1 hour of training time. If you would like to further experiment with additional changes, that is fine, but because these things sometimes take a long time to train.
 
 - **Include graphs** of how well your testing data performed vs. the training data.
